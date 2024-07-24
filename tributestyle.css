@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: #e9d9d9;
+}
+.container {
+    background-color: rgb(48, 10, 10);
+    min-height: 100vh;
+    border: 10px solid rgb(228, 223, 223);
+}
+.content {
+    max-width: 900px;
+    margin:0 auto;
+}
+.top-section {
+    margin-top:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top-section h1 {
+    font: size 50px;
+    font-weight: bold;
+    color:gold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.top-section h4 {
+    font-size: 20px;
+    text-align: end;
+    color: #7a7376;
+    text-decoration: underline;
+
+}
+.image-container {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image-container,
+img {
+    width: 300px;
+    height: 320px;
+}
+.about-section {
+    margin-top: 50px;
+}
+.about-section h2 {
+    font-size: 60px;
+    font-weight:400;
+    margin-bottom: 10px;
+    text-decoration:dotted;
+    color:orangered;
+}
+.about-section h3 {
+    font-size: 30px;
+    font-weight:300;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    color:rgb(233, 142, 23);
+}
+.about-section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+.card {
+    margin-top: 20px;
+    background-color:white;
+    border: 3px solid #f3620e;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    color: #080707d3;
+    margin-top: 0;
+    text-decoration: underline;
+  }
+  
+  .card p {
+    color: rgb(8, 5, 5);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+
+.Keytraits-section {
+    margin: 50px;
+    margin: 50px 0;
+    letter-spacing: 0.8;
+}
+.Keytraits-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: rgb(233, 142, 23);
+}
+.Keytraits-section ul {
+    margin-left:50px ;
+}
+.Keytraits-section li {
+    margin-bottom: 15px;
+}
+footer {
+    margin: 50px 0;
+
+}
+footer p{
+    text-align: end;
+    font-weight: bold;
+    font-style: italic;
+    color:darksalmon;
+    text-decoration: underline;
+}
+a {
+    padding: initial;
+    text-decoration: none;
+    color: #a31072;
+  }
+  a:hover {
+    color:rgb(36, 116, 136);
+    text-decoration: underline;
+  }
+
+
+  
